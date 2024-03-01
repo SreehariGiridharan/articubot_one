@@ -1,0 +1,33 @@
+[0.034s] Invoking command in '/home/sree/dev_ws/src/articubot_one/build/articubot_one': /usr/bin/cmake /home/sree/dev_ws/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sree/dev_ws/src/articubot_one/install/articubot_one
+[0.225s] -- The C compiler identification is GNU 11.4.0
+[0.349s] -- The CXX compiler identification is GNU 11.4.0
+[0.360s] -- Detecting C compiler ABI info
+[0.468s] -- Detecting C compiler ABI info - done
+[0.477s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.478s] -- Detecting C compile features
+[0.479s] -- Detecting C compile features - done
+[0.481s] -- Detecting CXX compiler ABI info
+[0.584s] -- Detecting CXX compiler ABI info - done
+[0.593s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.593s] -- Detecting CXX compile features
+[0.594s] -- Detecting CXX compile features - done
+[0.606s] [31mCMake Error at CMakeLists.txt:19 (find_package):
+[0.606s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.606s]   has asked CMake to find a package configuration file provided by
+[0.606s]   "ament_cmake", but CMake did not find one.
+[0.606s] 
+[0.607s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.607s]   any of the following names:
+[0.607s] 
+[0.607s]     ament_cmakeConfig.cmake
+[0.607s]     ament_cmake-config.cmake
+[0.607s] 
+[0.607s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.607s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.607s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.607s]   has been installed.
+[0.607s] 
+[0.608s] [0m
+[0.608s] -- Configuring incomplete, errors occurred!
+[0.608s] See also "/home/sree/dev_ws/src/articubot_one/build/articubot_one/CMakeFiles/CMakeOutput.log".
+[0.610s] Invoked command in '/home/sree/dev_ws/src/articubot_one/build/articubot_one' returned '1': /usr/bin/cmake /home/sree/dev_ws/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sree/dev_ws/src/articubot_one/install/articubot_one
